@@ -13,8 +13,8 @@ body {
 }
 
 .quiz-container {
-  height: 540px;
-  width: 500px;
+  height: 740px;
+  width: 660px;
   // background-image: url('https://images.unsplash.com/photo-1628367282397-bf7cb7d6e4b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzA5OTc1fHxlbnwwfHx8fHw%3D&w=1000&q=80');
   background-color: #9086c0;
   background-repeat: no-repeat;
@@ -69,7 +69,8 @@ body {
 
   .footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: end;
   }
 
   button {
