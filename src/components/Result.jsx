@@ -83,72 +83,9 @@ export default function Analysis() {
 </div>
     
     :
-      <div className="mt-6 flex justify-center flex-col mx-10 bg-white rounded-lg shadow-lg p-6">
-  <p className="text-lg font-bold">Career Guidance:</p>
-  <p className="text-sm text-gray-600">Based on the student's responses to the questions, here is a suitable career path and some guidance for them:</p>
-
-  <div className="mt-4">
-    <p className="text-lg font-semibold">Career Path Suggestion:</p>
-    <p className="text-base">Data Analyst or Data Scientist</p>
-  </div>
-
-  <div className="mt-4">
-    <p className="text-lg font-semibold">Why Data Analyst or Data Scientist:</p>
-    <ul className="list-disc list-inside pl-4">
-      <li>The student's interest in math and science, as well as their confidence in numerical aptitude, suggests a strong foundation in quantitative skills, which is crucial for data-related careers.</li>
-      <li>They enjoy solving complex problems and puzzles that require analytical thinking, which is a key aspect of data analysis and data science.</li>
-      <li>Continuous learning and personal growth are somewhat important to them, and these fields are ever-evolving, providing ample opportunities for learning and growth.</li>
-      <li>Completing a creative project demonstrates an ability to work on projects, which is a valuable skill in data-related roles.</li>
-      <li>Their confidence in logical reasoning and abstract reasoning indicates potential for success in data analysis.</li>
-    </ul>
-  </div>
-
-  <div className="mt-4">
-    <p className="text-lg font-semibold">Traits and Qualities Helpful for Data Analyst or Data Scientist:</p>
-    <ul className="list-disc list-inside pl-4">
-      <li>Analytical mindset</li>
-      <li>Strong problem-solving skills</li>
-      <li>Proficiency in mathematics and statistics</li>
-      <li>Attention to detail</li>
-      <li>Critical thinking</li>
-      <li>Curiosity and a desire to learn</li>
-      <li>Strong communication skills (both verbal and written)</li>
-    </ul>
-  </div>
-
-  <div className="mt-4">
-    <p className="text-lg font-semibold">YouTube Video Suggestions:</p>
-    <ol className="list-decimal list-inside pl-4">
-      <li><a href="https://www.youtube.com/watch?v=yV-TqUdLd3I">Introduction to Data Analysis</a></li>
-      <li><a href="https://www.youtube.com/watch?v=duk1tC0yfGw">What is Data Science?</a></li>
-      <li><a href="https://www.youtube.com/watch?v=w21aC6x3XqY">How to Become a Data Scientist</a></li>
-    </ol>
-  </div>
-
-  <div className="mt-4">
-    <p className="text-lg font-semibold">Blogs and Resources:</p>
-    <ul className="list-disc list-inside pl-4">
-      <li><a href="https://towardsdatascience.com/">Towards Data Science</a></li>
-      <li><a href="https://www.kaggle.com/">Kaggle - Data Science and Machine Learning Community</a></li>
-      <li><a href="https://www.datacamp.com/">DataCamp - Learn Data Science</a></li>
-    </ul>
-  </div>
-
-  <div className="mt-4">
-    <p className="text-lg font-semibold">Career Roadmap:</p>
-    <ol className="list-decimal list-inside pl-4">
-      <li>Start with a strong foundation in mathematics, statistics, and programming (e.g., Python).</li>
-      <li>Take online courses or pursue a degree in data science or related fields.</li>
-      <li>Build a portfolio of data analysis projects to showcase your skills.</li>
-      <li>Network with professionals in the data industry and consider internships.</li>
-      <li>Stay updated with the latest trends and technologies in data science.</li>
-    </ol>
-  </div>
-
-  <p className="text-sm text-gray-600 mt-4">
-    This career path in data analysis or data science aligns with the student's interests and strengths while offering room for continuous learning and growth. It's a field with high demand and various opportunities for those who enjoy working with data and solving analytical problems.
-  </p>
-</div>
+    <div>
+{JSON.stringify(result)}
+    </div>
     
     }
       
@@ -158,3 +95,70 @@ export default function Analysis() {
     </>
   );
 }
+
+//       <div className="mt-6 flex justify-center flex-col mx-10 bg-white rounded-lg shadow-lg p-6">
+//   <p className="text-lg font-bold">Career Guidance:</p>
+//   <p className="text-sm text-gray-600">Based on the student's responses to the questions, here is a suitable career path and some guidance for them:</p>
+
+//   <div className="mt-4">
+//     <p className="text-lg font-semibold">Career Path Suggestion:</p>
+//     <p className="text-base">Data Analyst or Data Scientist</p>
+//   </div>
+
+//   <div className="mt-4">
+//     <p className="text-lg font-semibold">Why Data Analyst or Data Scientist:</p>
+//     <ul className="list-disc list-inside pl-4">
+//       <li>The student's interest in math and science, as well as their confidence in numerical aptitude, suggests a strong foundation in quantitative skills, which is crucial for data-related careers.</li>
+//       <li>They enjoy solving complex problems and puzzles that require analytical thinking, which is a key aspect of data analysis and data science.</li>
+//       <li>Continuous learning and personal growth are somewhat important to them, and these fields are ever-evolving, providing ample opportunities for learning and growth.</li>
+//       <li>Completing a creative project demonstrates an ability to work on projects, which is a valuable skill in data-related roles.</li>
+//       <li>Their confidence in logical reasoning and abstract reasoning indicates potential for success in data analysis.</li>
+//     </ul>
+//   </div>
+
+//   <div className="mt-4">
+//     <p className="text-lg font-semibold">Traits and Qualities Helpful for Data Analyst or Data Scientist:</p>
+//     <ul className="list-disc list-inside pl-4">
+//       <li>Analytical mindset</li>
+//       <li>Strong problem-solving skills</li>
+//       <li>Proficiency in mathematics and statistics</li>
+//       <li>Attention to detail</li>
+//       <li>Critical thinking</li>
+//       <li>Curiosity and a desire to learn</li>
+//       <li>Strong communication skills (both verbal and written)</li>
+//     </ul>
+//   </div>
+
+//   <div className="mt-4">
+//     <p className="text-lg font-semibold">YouTube Video Suggestions:</p>
+//     <ol className="list-decimal list-inside pl-4">
+//       <li><a href="https://www.youtube.com/watch?v=yV-TqUdLd3I">Introduction to Data Analysis</a></li>
+//       <li><a href="https://www.youtube.com/watch?v=duk1tC0yfGw">What is Data Science?</a></li>
+//       <li><a href="https://www.youtube.com/watch?v=w21aC6x3XqY">How to Become a Data Scientist</a></li>
+//     </ol>
+//   </div>
+
+//   <div className="mt-4">
+//     <p className="text-lg font-semibold">Blogs and Resources:</p>
+//     <ul className="list-disc list-inside pl-4">
+//       <li><a href="https://towardsdatascience.com/">Towards Data Science</a></li>
+//       <li><a href="https://www.kaggle.com/">Kaggle - Data Science and Machine Learning Community</a></li>
+//       <li><a href="https://www.datacamp.com/">DataCamp - Learn Data Science</a></li>
+//     </ul>
+//   </div>
+
+//   <div className="mt-4">
+//     <p className="text-lg font-semibold">Career Roadmap:</p>
+//     <ol className="list-decimal list-inside pl-4">
+//       <li>Start with a strong foundation in mathematics, statistics, and programming (e.g., Python).</li>
+//       <li>Take online courses or pursue a degree in data science or related fields.</li>
+//       <li>Build a portfolio of data analysis projects to showcase your skills.</li>
+//       <li>Network with professionals in the data industry and consider internships.</li>
+//       <li>Stay updated with the latest trends and technologies in data science.</li>
+//     </ol>
+//   </div>
+
+//   <p className="text-sm text-gray-600 mt-4">
+//     This career path in data analysis or data science aligns with the student's interests and strengths while offering room for continuous learning and growth. It's a field with high demand and various opportunities for those who enjoy working with data and solving analytical problems.
+//   </p>
+// </div>
