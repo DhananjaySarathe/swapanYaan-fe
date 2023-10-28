@@ -14,7 +14,7 @@ const Quiz = ({ questions }) => {
     const [answer, setAnswer] = useState(null);
     const [result, setResult] = useState(resultInitalState);
     const [showResult, setShowResult] = useState(false);
-    const { question, choices, correctAnswer } = questions[currentQuestion];
+    const { question, choices, correctAnswer ,key } = questions[currentQuestion];
 
     const onAnwswerClick = (answer, index) => {
       setAnswerIdx(index);
